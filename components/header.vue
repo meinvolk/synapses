@@ -41,7 +41,7 @@
                 <NuxtLink to="/benefits">Benefits</NuxtLink>
               </li>
               <li class="page_item page-item-855 page_item_has_children">
-                <NuxtLink to="/services">Services</NuxtLink>
+                <NuxtLink to="/services/intraoperative-neuromonitoring">Services</NuxtLink>
                 <ul class="children">
                   <li class="page_item page-item-203">
                     <NuxtLink to="/services/intraoperative-neuromonitoring"

@@ -13,7 +13,7 @@
                   class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular"
                 >
                   <section
-                    class="et_pb_module et_pb_fullwidth_header et_pb_fullwidth_header_0 et_pb_text_align_center et_pb_bg_layout_dark"
+                    class="hero et_pb_module et_pb_fullwidth_header et_pb_fullwidth_header_0 et_pb_text_align_center et_pb_bg_layout_dark"
                   >
                     <div class="et_pb_fullwidth_header_container center">
                       <div class="header-content-container center">
@@ -377,3 +377,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.hero {
+  padding-top: 225px;
+}
+</style>
