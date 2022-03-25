@@ -189,25 +189,9 @@
                       </div>
                       <!-- .et_pb_text -->
                       <div class="et_pb_module et_pb_tabs et_pb_tabs_0">
-                        <ul class="et_pb_tabs_controls clearfix">
-                          <li class="et_pb_tab_0 et_pb_tab_active">
-                            <a href="#">Spinal</a>
-                          </li>
-                          <li class="et_pb_tab_1">
-                            <a href="#">Cranial</a>
-                          </li>
-                          <li class="et_pb_tab_2">
-                            <a href="#">ENT/Otology</a>
-                          </li>
-                          <li class="et_pb_tab_3">
-                            <a href="#">Vascular</a>
-                          </li>
-                          <li class="et_pb_tab_4">
-                            <a href="#">Ortho/Peripheral</a>
-                          </li>
-                        </ul>
-                        <div class="et_pb_all_tabs">
-                          <div
+                        <Tabs class="et_pb_all_tabs">
+                          <Tab
+                            title="Spinal"
                             class="et_pb_tab et_pb_tab_0 clearfix et_pb_active_content"
                           >
                             <div class="et_pb_tab_content">
@@ -228,9 +212,12 @@
                                 *SSEP, EEG, EMG, tEMG
                               </p>
                             </div>
-                          </div>
+                          </Tab>
                           <!-- .et_pb_tab -->
-                          <div class="et_pb_tab et_pb_tab_1 clearfix">
+                          <Tab
+                            title="Cranial"
+                            class="et_pb_tab et_pb_tab_1 clearfix et_pb_active_content"
+                          >
                             <div class="et_pb_tab_content">
                               <p>
                                 <strong>Aneurysm</strong><br />
@@ -286,9 +273,12 @@
                                 *VEP
                               </p>
                             </div>
-                          </div>
+                          </Tab>
                           <!-- .et_pb_tab -->
-                          <div class="et_pb_tab et_pb_tab_2 clearfix">
+                          <Tab
+                            title="ENT/Otology"
+                            class="et_pb_tab et_pb_tab_2 clearfix et_pb_active_content"
+                          >
                             <div class="et_pb_tab_content">
                               <p>
                                 <strong>Parotidectomy Facial Nerve</strong
@@ -307,9 +297,12 @@
                                 *EMG, tEMG
                               </p>
                             </div>
-                          </div>
+                          </Tab>
                           <!-- .et_pb_tab -->
-                          <div class="et_pb_tab et_pb_tab_3 clearfix">
+                          <Tab
+                            title="Vascular"
+                            class="et_pb_tab et_pb_tab_3 clearfix et_pb_active_content"
+                          >
                             <div class="et_pb_tab_content">
                               <p>
                                 <strong>Carotid Endarterectomy</strong><br />
@@ -334,9 +327,12 @@
                                 *SSEP, EEG
                               </p>
                             </div>
-                          </div>
+                          </Tab>
                           <!-- .et_pb_tab -->
-                          <div class="et_pb_tab et_pb_tab_4 clearfix">
+                          <Tab
+                            title="Ortho/Peripheral"
+                            class="et_pb_tab et_pb_tab_4 clearfix et_pb_active_content"
+                          >
                             <div class="et_pb_tab_content">
                               <p>
                                 <strong>Hip Related Procedures</strong><br />
@@ -349,9 +345,9 @@
                                 *SSEP, EMG, Temg
                               </p>
                             </div>
-                          </div>
+                          </Tab>
                           <!-- .et_pb_tab -->
-                        </div>
+                        </Tabs>
                         <!-- .et_pb_all_tabs -->
                       </div>
                       <!-- .et_pb_tabs -->

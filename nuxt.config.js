@@ -46,7 +46,10 @@ export default {
       {
         src: "https://code.jquery.com/jquery-3.6.0.min.js",
         type: "text/javascript",
-        body: true,
+      },
+      {
+        src: "https://code.jquery.com/jquery-migrate-3.3.2.min.js",
+        type: "text/javascript",
       },
       { src: "/assets/js/jquery.js", type: "text/javascript", body: true },
       { src: "/assets/js/jquery2.js", type: "text/javascript", body: true },
@@ -71,8 +74,18 @@ export default {
         type: "text/javascript",
         body: true,
       },
-      { src: "/assets/js/common.js", type: "text/javascript", body: true },
-      { src: "/assets/js/custom.js", type: "text/javascript", body: true },
+      {
+        src: "/assets/js/common.js",
+        type: "text/javascript",
+        body: true,
+        id: "et-core-common-js",
+      },
+      {
+        src: "/assets/js/custom.js",
+        type: "text/javascript",
+        body: true,
+        id: "divi-custom-script-js",
+      },
       { src: "/assets/js/dom-ready.js", type: "text/javascript", body: true },
       { src: "/assets/js/es6-promise.js", type: "text/javascript", body: true },
       { src: "/assets/js/gem.js", type: "text/javascript", body: true },
