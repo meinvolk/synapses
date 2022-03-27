@@ -162,15 +162,6 @@
                         <span class="et_pb_image_wrap"
                           ><img
                             src="assets/images/pexels-photo-263337-1-e1515000487424.jpg"
-                            alt=""
-                            title=""
-                            srcset="
-                              https://synapsesiom.com/wp-content/uploads/2018/01/pexels-photo-263337-1-e1515000459789-768x909.jpeg    768w,
-                              https://synapsesiom.com/wp-content/uploads/2018/01/pexels-photo-263337-1-e1515000459789-253x300.jpeg    253w,
-                              https://synapsesiom.com/wp-content/uploads/2018/01/pexels-photo-263337-1-e1515000459789-865x1024.jpeg   865w,
-                              https://synapsesiom.com/wp-content/uploads/2018/01/pexels-photo-263337-1-e1515000459789-1080x1278.jpeg 1080w
-                            "
-                            sizes="(max-width: 507px) 100vw, 507px"
                         /></span>
                       </div>
                     </div>
@@ -212,11 +203,10 @@
                     <div
                       class="et_parallax_bg"
                       style="
-                        background-image: url(wp-content/uploads/2017/11/pexels-photo-415779.jpg);
+                        background-image: url('assets/images/pexels-photo-415779.jpg');
                       "
                     ></div>
                   </div>
-
                   <div class="et_pb_row et_pb_row_3">
                     <div
                       class="et_pb_column et_pb_column_2_3 et_pb_column_4 et_pb_css_mix_blend_mode_passthrough"
@@ -229,19 +219,9 @@
                             id="testimonial_rotator_wrap_293"
                             class="testimonial_rotator_wrap"
                           >
-                            <div
-                              id="testimonial_rotator_293"
+                            <VueSlickCarousel
+                              v-bind="settings"
                               class="testimonial_rotator cycletwo-slideshow format-rotator template-longform hreview-aggregate"
-                              data-cycletwo-timeout="8000"
-                              data-cycletwo-speed="2000"
-                              data-cycletwo-pause-on-hover="true"
-                              data-cycletwo-center-horz="true"
-                              data-cycletwo-center-vert="true"
-                              data-cycletwo-swipe="true"
-                              data-cycletwo-fx="flipHorz"
-                              data-cycletwo-auto-height="calc"
-                              data-cycletwo-slides="> div.slide"
-                              data-cycletwo-log="false"
                             >
                               <div
                                 class="slide slide1 testimonial_rotator_slide hreview itemreviewed item cf-tr"
@@ -474,7 +454,7 @@
                                   <div class="fn">Synapses IOM</div>
                                 </div>
                               </div>
-                            </div>
+                            </VueSlickCarousel>
                             <!-- #testimonial_rotator_293 -->
                           </div>
                           <!-- .testimonial_rotator_wrap -->
@@ -676,11 +656,25 @@
 </template>
 
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+
 export default {
   name: "IndexPage",
+  components: { VueSlickCarousel },
   head() {
     return {
       link: [{ rel: "stylesheet", href: "/assets/css/et-core-unified-2.css" }],
+    };
+  },
+  data() {
+    return {
+      settings: {
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+      },
     };
   },
 };
