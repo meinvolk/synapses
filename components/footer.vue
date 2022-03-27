@@ -52,27 +52,29 @@
             <h4 class="title">Pages</h4>
             <ul>
               <li class="page_item page-item-2 current_page_item">
-                <a href="index.html" aria-current="page">Home</a>
+                <NuxtLink to="/" aria-current="page">Home</NuxtLink>
               </li>
               <li class="page_item page-item-157">
-                <a href="benefits">Benefits</a>
+                <NuxtLink to="/benefits">Benefits</NuxtLink>
               </li>
               <li class="page_item page-item-156">
-                <a href="careers">Careers</a>
+                <NuxtLink to="/careers">Careers</NuxtLink>
               </li>
               <li class="page_item page-item-57">
-                <a href="schedule">Schedule A Case</a>
+                <NuxtLink to="/schedule">Schedule A Case</NuxtLink>
               </li>
               <li class="page_item page-item-730">
-                <a href="loginpage">Employee Login</a>
+                <NuxtLink to="/loginpage">Employee Login</NuxtLink>
               </li>
               <li class="page_item page-item-203">
-                <a href="services/intraoperative-neuromonitoring"
-                  >Intraoperative Neuromonitoring</a
+                <NuxtLink to="/services/intraoperative-neuromonitoring"
+                  >Intraoperative Neuromonitoring</NuxtLink
                 >
               </li>
               <li class="page_item page-item-849">
-                <a href="services/continuous-eeg/">Continuous EEG</a>
+                <NuxtLink to="/services/continuous-eeg/"
+                  >Continuous EEG</NuxtLink
+                >
               </li>
             </ul>
           </div>
@@ -90,15 +92,7 @@
                     alt="ASET logo"
                     width="300"
                     height="129"
-                    class="alignnone size-medium wp-image-593"
-                    srcset="
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ASET-logo-300x129.jpg   300w,
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ASET-logo-768x331.jpg   768w,
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ASET-logo-1024x442.jpg 1024w,
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ASET-logo-1080x466.jpg 1080w,
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ASET-logo.jpg          1104w
-                    "
-                    sizes="(max-width: 300px) 100vw, 300px" /></a
+                    class="alignnone size-medium wp-image-593" /></a
                 ><a href="http://www.abret.org/"
                   ><img
                     loading="lazy"
@@ -106,12 +100,7 @@
                     alt="ABRET Logo"
                     width="300"
                     height="67"
-                    class="alignnone size-medium wp-image-594"
-                    srcset="
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ABRET-Logo-300x67.jpg 300w,
-                      https://synapsesiom.com/wp-content/uploads/2018/01/ABRET-Logo.jpg        722w
-                    "
-                    sizes="(max-width: 300px) 100vw, 300px" /></a
+                    class="alignnone size-medium wp-image-594" /></a
                 ><a href="http://asnm.org/"
                   ><img
                     loading="lazy"
@@ -120,11 +109,6 @@
                     width="300"
                     height="130"
                     class="alignnone size-medium wp-image-800"
-                    srcset="
-                      https://synapsesiom.com/wp-content/uploads/2018/02/ASNM-logo-1-300x130.jpg 300w,
-                      https://synapsesiom.com/wp-content/uploads/2018/02/ASNM-logo-1.jpg         639w
-                    "
-                    sizes="(max-width: 300px) 100vw, 300px"
                 /></a>
               </p>
             </div>

@@ -20,6 +20,7 @@ export default {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Arimo:regular,italic,700,700italic|Rosario:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic|Cherry+Cream+Soda:regular|Zilla+Slab+Highlight:regular,700|Slabo+27px:regular|Slabo+13px:regular|Rosarivo:regular,italic|Sarala:regular,700&amp;subset=latin-ext,greek,hebrew,greek-ext,vietnamese,cyrillic,latin,cyrillic-ext,devanagari&amp;display=swap",
       },
+      { rel: "stylesheet", href: "/assets/css/header.css" },
       { rel: "stylesheet", href: "/assets/css/buttons.css" },
       { rel: "stylesheet", href: "/assets/css/caldera-forms-front.css" },
       { rel: "stylesheet", href: "/assets/css/dashicons.css" },
