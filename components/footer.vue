@@ -10,7 +10,7 @@
             <img
               width="350"
               height="235"
-              src="assets/images/Synapses_IOM_LogoproofEIDTED22-1-e1512750803254.png"
+              src="/assets/images/Synapses_IOM_LogoproofEIDTED22-1-e1512750803254.png"
               class="image wp-image-211 attachment-full size-full"
               alt="Synapses IOM Logo"
               loading="lazy"
@@ -88,7 +88,7 @@
                 <a href="https://www.aset.org/"
                   ><img
                     loading="lazy"
-                    src="assets/images/ASET-logo-300x129.jpg"
+                    src="/assets/images/ASET-logo-300x129.jpg"
                     alt="ASET logo"
                     width="300"
                     height="129"
@@ -96,7 +96,7 @@
                 ><a href="http://www.abret.org/"
                   ><img
                     loading="lazy"
-                    src="assets/images/ABRET-Logo-300x67.jpg"
+                    src="/assets/images/ABRET-Logo-300x67.jpg"
                     alt="ABRET Logo"
                     width="300"
                     height="67"
@@ -104,7 +104,7 @@
                 ><a href="http://asnm.org/"
                   ><img
                     loading="lazy"
-                    src="assets/images/ASNM-logo-1-300x130.jpg"
+                    src="/assets/images/ASNM-logo-1-300x130.jpg"
                     alt="ASNM logo"
                     width="300"
                     height="130"

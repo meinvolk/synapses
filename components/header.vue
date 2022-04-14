@@ -62,7 +62,7 @@
                 <NuxtLink to="/schedule">Schedule A Case</NuxtLink>
               </li>
               <li class="page_item page-item-730">
-                <NuxtLink to="/loginpage">Employee Login</NuxtLink>
+                <NuxtLink to="/loginpage">Employee login</NuxtLink>
               </li>
             </ul>
           </nav>

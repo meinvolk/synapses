@@ -161,7 +161,7 @@
                       <div class="et_pb_module et_pb_image et_pb_image_0">
                         <span class="et_pb_image_wrap"
                           ><img
-                            src="assets/images/pexels-photo-263337-1-e1515000487424.jpg"
+                            src="/assets/images/pexels-photo-263337-1-e1515000487424.jpg"
                         /></span>
                       </div>
                     </div>
@@ -203,7 +203,7 @@
                     <div
                       class="et_parallax_bg"
                       style="
-                        background-image: url('assets/images/pexels-photo-415779.jpg');
+                        background-image: url('/assets/images/pexels-photo-415779.jpg');
                       "
                     ></div>
                   </div>
@@ -551,7 +551,7 @@
                         <a href="benefits"
                           ><span class="et_pb_image_wrap"
                             ><img
-                              src="assets/images/pexels-photo-324658.jpg"
+                              src="/assets/images/pexels-photo-324658.jpg"
                               alt=""
                               title="" /></span
                         ></a>
@@ -583,7 +583,7 @@
                         <a href="benefits#surgeons"
                           ><span class="et_pb_image_wrap"
                             ><img
-                              src="assets/images/pexels-photo-263210-1-e1511891914796.jpg"
+                              src="/assets/images/pexels-photo-263210-1-e1511891914796.jpg"
                               alt=""
                               title="" /></span
                         ></a>
@@ -616,7 +616,7 @@
                         <a href="benefits#hospitals"
                           ><span class="et_pb_image_wrap"
                             ><img
-                              src="assets/images/building-2654823_1920-e1517329940191.jpg"
+                              src="/assets/images/building-2654823_1920-e1517329940191.jpg"
                               alt=""
                               title=""
                               srcset="
