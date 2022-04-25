@@ -109,10 +109,7 @@
   .et_header_style_fullscreen .et-fixed-header #et-top-navigation {
     padding: 46px 0 46px 0 !important;
   }
-  .et-fixed-header#top-header,
-  .et-fixed-header#top-header #et-secondary-nav li ul {
-    background-color: #ff6600;
-  }
+
   .et-fixed-header #top-menu a,
   .et-fixed-header #et_search_icon:before,
   .et-fixed-header #et_top_search .et-search-form input,

@@ -106,11 +106,6 @@ a {
   background-color: rgba(255, 255, 255, 0);
 }
 
-#top-header,
-#et-secondary-nav li ul {
-  background-color: #ff6600;
-}
-
 .et_header_style_centered .mobile_nav .select_page,
 .et_header_style_split .mobile_nav .select_page,
 .et_nav_text_color_light #top-menu > li > a,
@@ -382,10 +377,7 @@ h6,
   .et_header_style_fullscreen .et-fixed-header #et-top-navigation {
     padding: 46px 0 46px 0 !important;
   }
-  .et-fixed-header#top-header,
-  .et-fixed-header#top-header #et-secondary-nav li ul {
-    background-color: #ff6600;
-  }
+
   .et-fixed-header #top-menu a,
   .et-fixed-header #et_search_icon:before,
   .et-fixed-header #et_top_search .et-search-form input,

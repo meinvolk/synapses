@@ -18,7 +18,7 @@
     </div>
     <!-- #top-header -->
 
-    <header id="main-header" data-height-onload="110">
+    <header id="main-header" data-height-onload="110" class="opaque-header">
       <div class="container clearfix et_menu_container">
         <div class="logo_container">
           <span class="logo_helper"></span>
