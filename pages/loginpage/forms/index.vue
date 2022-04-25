@@ -65,10 +65,10 @@
                       <div
                         class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module"
                       >
-                        <a
+                        <NuxtLink
                           class="et_pb_button et_pb_button_0 et_hover_enabled et_pb_bg_layout_light"
-                          href="https://synapsesiom.com/loginpage/forms/case-evaluation-form/"
-                          >Case Evaluation Form</a
+                          to="/loginpage/forms/case-evaluation-form/"
+                          >Case Evaluation Form</NuxtLink
                         >
                       </div>
                       <div
@@ -161,10 +161,6 @@
                 </div>
                 <!-- .et_pb_section -->
               </div>
-              <!-- <a v-else class="login" @click="$auth.loginWith('auth0')"
-                >Sign In</a
-              > -->
-              <a @click="$auth.loginWith('auth0')">Sign In</a>
               <!-- .et_builder_inner_content -->
             </div>
             <!-- .et-l -->
@@ -182,11 +178,6 @@
 export default {
   name: "Forms",
   middleware: "auth",
-  // computed: {
-  //   loggedIn() {
-  //     return this.$auth.loggedIn;
-  //   },
-  // },
   head() {
     return {
       link: [

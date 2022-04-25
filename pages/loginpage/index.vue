@@ -10,7 +10,9 @@
             <div class="et-l et-l--post">
               <div class="login et_builder_inner_content et_pb_gutters3 login">
                 <h2>Employee Login</h2>
-                <a @click="$auth.loginWith('auth0')">Sign In</a>
+                <a class="login-btn" @click="$auth.loginWith('auth0')"
+                  >Sign In</a
+                >
               </div>
               <!-- .et_builder_inner_content -->
             </div>
@@ -50,6 +52,17 @@ export default {
   max-width: 500px;
   margin: auto;
   text-align: center;
+}
+
+.login-btn {
+  display: block;
+  background-color: #edb059;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  max-width: 200px;
+  margin: 30px auto;
+  cursor: pointer;
 }
 
 .login h2 {
