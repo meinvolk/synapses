@@ -8,20 +8,9 @@
         <div class="entry-content">
           <div id="et-boc" class="et-boc">
             <div class="et-l et-l--post">
-              <div
-                class="login et_builder_inner_content et_pb_gutters3 login"
-              >
-              <h2>Employee Login</h2>
-                        <input
-                        type="password"
-                        v-model="formPassword"
-                        name="password"
-                        label="Password"
-                        id="password"
-                        ></input>
-
-                    <button @click="login">Login</button>
-
+              <div class="login et_builder_inner_content et_pb_gutters3 login">
+                <h2>Employee Login</h2>
+                <a @click="$auth.loginWith('auth0')">Sign In</a>
               </div>
               <!-- .et_builder_inner_content -->
             </div>
@@ -39,24 +28,10 @@
 <script>
 export default {
   name: "LoginPage",
-  data() {
-    return {
-      formPassword: ''
-    }
-  },
   mounted() {
-    if (this.$store.getters.checkPassword) {
-        this.$router.push({ path: 'loginpage/forms' });
+    if (this.$auth.loggedIn) {
+      this.$router.push({ path: "/loginpage/forms" });
     }
-  },
-  methods: {
-    login () {
-      this.$store.dispatch('checkPassword', this.formPassword ).then((s) => {
-        this.$router.push({ path: 'loginpage/forms' });
-      }).catch((e) => {
-        console.log(e.message);
-      })
-    },
   },
   head() {
     return {

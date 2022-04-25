@@ -161,6 +161,10 @@
                 </div>
                 <!-- .et_pb_section -->
               </div>
+              <!-- <a v-else class="login" @click="$auth.loginWith('auth0')"
+                >Sign In</a
+              > -->
+              <a @click="$auth.loginWith('auth0')">Sign In</a>
               <!-- .et_builder_inner_content -->
             </div>
             <!-- .et-l -->
@@ -177,16 +181,12 @@
 <script>
 export default {
   name: "Forms",
-  mounted() {
-    if (!this.$store.getters.checkPassword) {
-      this.$router.push({ path: "/loginpage" });
-    }
-  },
-  computed: {
-    authenticated() {
-      return this.$store.getters.checkPassword;
-    },
-  },
+  middleware: "auth",
+  // computed: {
+  //   loggedIn() {
+  //     return this.$auth.loggedIn;
+  //   },
+  // },
   head() {
     return {
       link: [
