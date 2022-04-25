@@ -74,28 +74,28 @@
                       <div
                         class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module"
                       >
-                        <a
+                        <NuxtLink
                           class="et_pb_button et_pb_button_1 et_hover_enabled et_pb_bg_layout_light"
-                          href="https://synapsesiom.com/loginpage/forms/needle/"
-                          >Needle Stick Report Form</a
+                          to="/loginpage/forms/needle"
+                          >Needle Stick Report Form</NuxtLink
                         >
                       </div>
                       <div
                         class="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module"
                       >
-                        <a
+                        <NuxtLink
                           class="et_pb_button et_pb_button_2 et_hover_enabled et_pb_bg_layout_light"
-                          href="https://synapsesiom.com/loginpage/forms/incident/"
-                          >Incident Report Form</a
+                          to="/loginpage/forms/incident/"
+                          >Incident Report Form</NuxtLink
                         >
                       </div>
                       <div
                         class="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module"
                       >
-                        <a
+                        <NuxtLink
                           class="et_pb_button et_pb_button_3 et_hover_enabled et_pb_bg_layout_light"
-                          href="https://synapsesiom.com/forms/blood"
-                          >Bloodborne Pathogens Report Form</a
+                          to="/loginpage/forms/blood"
+                          >Bloodborne Pathogens Report Form</NuxtLink
                         >
                       </div>
                     </div>
