@@ -84,10 +84,6 @@
                             data-cf-ver="1.9.6"
                             data-cf-form-id="CF5a68c7cf3e922"
                           >
-                            <div
-                              id="caldera_notices_1"
-                              data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
-                            ></div>
                             <form
                               class="CF5a68c7cf3e922 caldera_forms_form cfajax-trigger _tisBound"
                               action="https://usebasin.com/f/f877ebc5a38a"
@@ -467,39 +463,6 @@
                                 </div>
                               </div>
                             </form>
-                          </div>
-
-                          <div
-                            data-field-wrapper="fld_5241868"
-                            class="form-group"
-                            id="fld_5241868_1-wrap"
-                          >
-                            <label
-                              id="fld_5241868Label"
-                              for="fld_5241868_1"
-                              class="control-label"
-                              >Equipment Information
-                              <span
-                                aria-hidden="true"
-                                role="presentation"
-                                class="field_required"
-                                style="color: #ee0000"
-                                >*</span
-                              ></label
-                            >
-                            <div class="">
-                              <textarea
-                                name="fld_5241868"
-                                value=""
-                                data-field="fld_5241868"
-                                class="form-control"
-                                id="fld_5241868_1"
-                                rows="4"
-                                placeholder="Type/Model/Serial Numbers"
-                                required="required"
-                                aria-labelledby="fld_5241868Label"
-                              ></textarea>
-                            </div>
                           </div>
                         </div>
                       </div>

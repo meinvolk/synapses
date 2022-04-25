@@ -78,10 +78,6 @@
                             data-cf-ver="1.9.6"
                             data-cf-form-id="CF5a6a11b4d14a0"
                           >
-                            <div
-                              id="caldera_notices_1"
-                              data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
-                            ></div>
                             <form
                               class="CF5a6a11b4d14a0 caldera_forms_form cfajax-trigger _tisBound"
                               action="https://usebasin.com/f/aa6a5facab9c"
@@ -1028,7 +1024,7 @@
                             </form>
                           </div>
                           
-                            <div class=""><h2><b><a href="https://synapsesiom.com/loginpage/forms/needle" style="color: rgb(255,0,0)">STOP! Click here to complete needle stick form</a></b></h2>
+                            <div class=""><h2><b><NuxtLink to="/loginpage/forms/needle" style="color: rgb(255,0,0)">STOP! Click here to complete needle stick form</NuxtLink></b></h2>
 
                             </p>
                             </div>

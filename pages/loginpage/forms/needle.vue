@@ -78,10 +78,6 @@
                             data-cf-ver="1.9.6"
                             data-cf-form-id="CF5a5e48b3a2017"
                           >
-                            <div
-                              id="caldera_notices_1"
-                              data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
-                            ></div>
                             <form
                               class="CF5a5e48b3a2017 caldera_forms_form cfajax-trigger _tisBound"
                               action="https://usebasin.com/f/945b84039d9d"
