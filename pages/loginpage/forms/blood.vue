@@ -83,72 +83,12 @@
                               data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
                             ></div>
                             <form
-                              data-instance="1"
                               class="CF5a6a11b4d14a0 caldera_forms_form cfajax-trigger _tisBound"
+                              action="https://usebasin.com/f/aa6a5facab9c"
                               method="POST"
                               enctype="multipart/form-data"
-                              id="CF5a6a11b4d14a0_1"
-                              data-form-id="CF5a6a11b4d14a0"
-                              aria-label="Bloodborne Pathogens Report Form"
-                              data-target="#caldera_notices_1"
-                              data-template="#cfajax_CF5a6a11b4d14a0-tmpl"
-                              data-cfajax="CF5a6a11b4d14a0"
-                              data-load-element="_parent"
-                              data-load-class="cf_processing"
-                              data-post-disable="0"
-                              data-action="cf_process_ajax_submit"
-                              data-request="https://synapsesiom.com/cf-api/CF5a6a11b4d14a0"
-                              data-hiderows="true"
+                              id="form"
                             >
-                              <input
-                                type="hidden"
-                                id="_cf_verify_CF5a6a11b4d14a0"
-                                name="_cf_verify"
-                                value="5bbf2b96e4"
-                                data-nonce-time="1650916183"
-                              /><input
-                                type="hidden"
-                                name="_wp_http_referer"
-                                value="/loginpage/forms/blood/"
-                              />
-                              <div id="cf2-CF5a6a11b4d14a0_1"></div>
-                              <input
-                                type="hidden"
-                                name="_cf_frm_id"
-                                value="CF5a6a11b4d14a0"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_frm_ct"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="cfajax"
-                                value="CF5a6a11b4d14a0"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_cr_pst"
-                                value="690"
-                              />
-                              <div
-                                class="hide"
-                                style="
-                                  display: none;
-                                  overflow: hidden;
-                                  height: 0;
-                                  width: 0;
-                                "
-                              >
-                                <label>Url</label
-                                ><input
-                                  type="text"
-                                  name="url"
-                                  value=""
-                                  autocomplete="off"
-                                />
-                              </div>
                               <div
                                 id="CF5a6a11b4d14a0_1-row-1"
                                 class="row first_row"
@@ -177,7 +117,7 @@
                                         type="text"
                                         data-provide="cfdatepicker"
                                         name="fld_3814236"
-                                        value=""
+                                        value="Date of Incident"
                                         id="fld_3814236_1"
                                         data-field="fld_3814236"
                                         class="form-control cfdatepicker is-cfdatepicker"
@@ -216,7 +156,7 @@
                                         class="form-control"
                                         id="fld_7399985_1"
                                         name="fld_7399985"
-                                        value=""
+                                        value="Time Incident Occurred"
                                         data-type="time"
                                         aria-required="true"
                                         aria-labelledby="fld_7399985Label"
@@ -249,7 +189,7 @@
                                         class="form-control"
                                         id="fld_6333000_1"
                                         name="fld_6333000"
-                                        value=""
+                                        value="PID"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_6333000Label"
@@ -282,7 +222,7 @@
                                         class="form-control"
                                         id="fld_3341379_1"
                                         name="fld_3341379"
-                                        value=""
+                                        value="Hospital"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_3341379Label"
@@ -316,7 +256,7 @@
                                         class="form-control"
                                         id="fld_5770528_1"
                                         name="fld_5770528"
-                                        value=""
+                                        value="Person Who Came In Contact?"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_5770528Label"
@@ -342,7 +282,7 @@
                                         class="form-control"
                                         id="fld_6080564_1"
                                         name="fld_6080564"
-                                        value=""
+                                        value="Person Phone Number?"
                                         data-type="phone"
                                         aria-labelledby="fld_6080564Label"
                                       />
@@ -381,7 +321,7 @@
                                             id="fld_7062217_1_opt1093027"
                                             class="fld_7062217_1 option-required"
                                             name="fld_7062217[opt1093027]"
-                                            value="CONSENT TO: Post-Exposure Evaluatiom"
+                                            value="Blood"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7062217_1"
                                             data-calc-value="Blood"
@@ -401,7 +341,7 @@
                                             id="fld_7062217_1_opt1636088"
                                             class="fld_7062217_1 option-required"
                                             name="fld_7062217[opt1636088]"
-                                            value="CONSENT TO: Follow-Up Care"
+                                            value="Saliva"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7062217_1"
                                             data-calc-value="Saliva"
@@ -441,7 +381,7 @@
                                             id="fld_7062217_1_opt1141422"
                                             class="fld_7062217_1 option-required"
                                             name="fld_7062217[opt1141422]"
-                                            value="REFUSAL TO: Post-Exposure Evaluation"
+                                            value="Other Bodily Fluids"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7062217_1"
                                             data-calc-value="Other Bodily Fluids"
@@ -461,7 +401,7 @@
                                             id="fld_7062217_1_opt1625923"
                                             class="fld_7062217_1 option-required"
                                             name="fld_7062217[opt1625923]"
-                                            value="REFUSAL TO: Follow-Up Care"
+                                            value="Other Known Contaminated Fluids/Tissue"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7062217_1"
                                             data-calc-value="Other Known Contaminated Fluids/Tissue"
@@ -502,7 +442,7 @@
                                             id="fld_2157803_1_opt1636088"
                                             class="fld_2157803_1 option-required"
                                             name="fld_2157803[opt1636088]"
-                                            value="CONSENT TO: Follow-Up Care"
+                                            value="Cut"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_2157803_1"
                                             data-calc-value="Cut"
@@ -542,7 +482,7 @@
                                             id="fld_2157803_1_opt1141422"
                                             class="fld_2157803_1 option-required"
                                             name="fld_2157803[opt1141422]"
-                                            value="REFUSAL TO: Post-Exposure Evaluation"
+                                            value="Abrasions"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_2157803_1"
                                             data-calc-value="Abrasions"
@@ -562,7 +502,7 @@
                                             id="fld_2157803_1_opt1625923"
                                             class="fld_2157803_1 option-required"
                                             name="fld_2157803[opt1625923]"
-                                            value="REFUSAL TO: Follow-Up Care"
+                                            value="Splashes"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_2157803_1"
                                             data-calc-value="Splashes"
@@ -602,7 +542,7 @@
                                             id="fld_2157803_1_opt1093027"
                                             class="fld_2157803_1 option-required"
                                             name="fld_2157803[opt1093027]"
-                                            value="CONSENT TO: Post-Exposure Evaluatiom"
+                                            value="Needle Stick"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_2157803_1"
                                             data-calc-value="Needle Stick"
@@ -612,13 +552,6 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <span
-                                    class="caldera-forms-conditional-field"
-                                    role="region"
-                                    aria-live="polite"
-                                    id="conditional_fld_8777216_1"
-                                    data-field-id="fld_8777216_1"
-                                  ></span>
                                 </div>
                               </div>
                               <div id="CF5a6a11b4d14a0_1-row-2" class="row">
@@ -644,7 +577,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_195789"
-                                        value=""
+                                        value="Explain Incident - Full Details"
                                         data-field="fld_195789"
                                         class="form-control"
                                         id="fld_195789_1"
@@ -676,7 +609,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_6281113"
-                                        value=""
+                                        value="Personal Protection Equipment Worn At Time of Incident - Full Details"
                                         data-field="fld_6281113"
                                         class="form-control"
                                         id="fld_6281113_1"
@@ -708,7 +641,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_3829565"
-                                        value=""
+                                        value="Actions Taken At Time of Incident - Full Details"
                                         data-field="fld_3829565"
                                         class="form-control"
                                         id="fld_3829565_1"
@@ -749,7 +682,7 @@
                                             id="fld_7253088_1_opt1093027"
                                             class="fld_7253088_1 option-required"
                                             name="fld_7253088[opt1093027]"
-                                            value="CONSENT TO: Post-Exposure Evaluatiom"
+                                            value="CONSENT TO: HIV Testing"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7253088_1"
                                             data-calc-value="CONSENT TO: HIV Testing"
@@ -769,7 +702,7 @@
                                             id="fld_7253088_1_opt1636088"
                                             class="fld_7253088_1 option-required"
                                             name="fld_7253088[opt1636088]"
-                                            value="CONSENT TO: Follow-Up Care"
+                                            value="CONSENT TO: HBC Testing"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7253088_1"
                                             data-calc-value="CONSENT TO: HBC Testing"
@@ -809,7 +742,7 @@
                                             id="fld_7253088_1_opt1141422"
                                             class="fld_7253088_1 option-required"
                                             name="fld_7253088[opt1141422]"
-                                            value="REFUSAL TO: Post-Exposure Evaluation"
+                                            value="REFUSAL TO: HIV Testing"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7253088_1"
                                             data-calc-value="REFUSAL TO: HIV Testing"
@@ -829,7 +762,7 @@
                                             id="fld_7253088_1_opt1625923"
                                             class="fld_7253088_1 option-required"
                                             name="fld_7253088[opt1625923]"
-                                            value="REFUSAL TO: Follow-Up Care"
+                                            value="REFUSAL TO: HBC Testing"
                                             data-type="checkbox"
                                             data-checkbox-field="fld_7253088_1"
                                             data-calc-value="REFUSAL TO: HBC Testing"
@@ -878,7 +811,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_5243327"
-                                        value=""
+                                        value="Additional Comments"
                                         data-field="fld_5243327"
                                         class="form-control"
                                         id="fld_5243327_1"
@@ -1054,7 +987,7 @@
                                         class="form-control"
                                         id="fld_361914_1"
                                         name="fld_361914"
-                                        value=""
+                                        value="Person Filling Out Report"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_361914Label"
@@ -1085,7 +1018,7 @@
                                         type="text"
                                         data-provide="cfdatepicker"
                                         name="fld_1774450"
-                                        value=""
+                                        value="Date Form Submitted"
                                         id="fld_1774450_1"
                                         data-field="fld_1774450"
                                         class="form-control cfdatepicker is-cfdatepicker"
@@ -1107,27 +1040,16 @@
                                       <input
                                         class="btn btn-default"
                                         type="submit"
-                                        name="fld_6682039"
-                                        id="fld_6682039_1"
                                         value="Submit Form"
-                                        data-field="fld_6682039"
                                       />
                                     </div>
                                   </div>
-                                  <input
-                                    class="button_trigger_1"
-                                    type="hidden"
-                                    name="fld_6682039"
-                                    id="fld_6682039_1_btn"
-                                    value=""
-                                    data-field="fld_6682039"
-                                  />
                                 </div>
                               </div>
                             </form>
                           </div>
                           
-                            <div class=""><h2><b><a href="https://synapsesiom.com/loginpage/forms/needle" style="color: rgb(255,0,0)">STOP! Click here to complete needle stick form</a></b></h2
+                            <div class=""><h2><b><a href="https://synapsesiom.com/loginpage/forms/needle" style="color: rgb(255,0,0)">STOP! Click here to complete needle stick form</a></b></h2>
 
                             </p>
                             </div>

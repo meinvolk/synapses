@@ -83,72 +83,12 @@
                               data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
                             ></div>
                             <form
-                              data-instance="1"
                               class="CF5a5e48b3a2017 caldera_forms_form cfajax-trigger _tisBound"
+                              action="https://usebasin.com/f/945b84039d9d"
                               method="POST"
                               enctype="multipart/form-data"
-                              id="CF5a5e48b3a2017_1"
-                              data-form-id="CF5a5e48b3a2017"
-                              aria-label="Needle Stick Report"
-                              data-target="#caldera_notices_1"
-                              data-template="#cfajax_CF5a5e48b3a2017-tmpl"
-                              data-cfajax="CF5a5e48b3a2017"
-                              data-load-element="_parent"
-                              data-load-class="cf_processing"
-                              data-post-disable="0"
-                              data-action="cf_process_ajax_submit"
-                              data-request="https://synapsesiom.com/cf-api/CF5a5e48b3a2017"
-                              data-hiderows="true"
+                              id="form"
                             >
-                              <input
-                                type="hidden"
-                                id="_cf_verify_CF5a5e48b3a2017"
-                                name="_cf_verify"
-                                value="ddedc2fdbb"
-                                data-nonce-time="1650915499"
-                              /><input
-                                type="hidden"
-                                name="_wp_http_referer"
-                                value="/loginpage/forms/needle/"
-                              />
-                              <div id="cf2-CF5a5e48b3a2017_1"></div>
-                              <input
-                                type="hidden"
-                                name="_cf_frm_id"
-                                value="CF5a5e48b3a2017"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_frm_ct"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="cfajax"
-                                value="CF5a5e48b3a2017"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_cr_pst"
-                                value="639"
-                              />
-                              <div
-                                class="hide"
-                                style="
-                                  display: none;
-                                  overflow: hidden;
-                                  height: 0;
-                                  width: 0;
-                                "
-                              >
-                                <label>Order Number</label
-                                ><input
-                                  type="text"
-                                  name="order_number"
-                                  value=""
-                                  autocomplete="off"
-                                />
-                              </div>
                               <div
                                 id="CF5a5e48b3a2017_1-row-1"
                                 class="row first_row"
@@ -177,7 +117,7 @@
                                         type="text"
                                         data-provide="cfdatepicker"
                                         name="fld_3814236"
-                                        value=""
+                                        value="Date of Needle Stick"
                                         id="fld_3814236_1"
                                         data-field="fld_3814236"
                                         class="form-control cfdatepicker is-cfdatepicker"
@@ -212,7 +152,7 @@
                                     <div class="">
                                       <select
                                         name="fld_8376904"
-                                        value=""
+                                        value="Who Was Stuck"
                                         data-field="fld_8376904"
                                         class="form-control"
                                         id="fld_8376904_1"
@@ -263,7 +203,7 @@
                                         class="form-control"
                                         id="fld_6333000_1"
                                         name="fld_6333000"
-                                        value=""
+                                        value="PID"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_6333000Label"
@@ -301,7 +241,7 @@
                                         class="form-control"
                                         id="fld_7904569_1"
                                         name="fld_7904569"
-                                        value=""
+                                        value="Person Who Was Stuck"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_7904569Label"
@@ -329,7 +269,7 @@
                                     <div class="">
                                       <select
                                         name="fld_4974062"
-                                        value=""
+                                        value="Type of Needle"
                                         data-field="fld_4974062"
                                         class="form-control"
                                         id="fld_4974062_1"
@@ -381,7 +321,8 @@
                                     <div class="">
                                       <textarea
                                         name="fld_195789"
-                                        value=""
+                                        value="Location/Body Part of Needle Stick - BE
+                                      SPECIFIC"
                                         data-field="fld_195789"
                                         class="form-control"
                                         id="fld_195789_1"
@@ -419,7 +360,7 @@
                                         class="form-control"
                                         id="fld_3341379_1"
                                         name="fld_3341379"
-                                        value=""
+                                        value="Hospital"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_3341379Label"
@@ -447,7 +388,7 @@
                                     <div class="">
                                       <select
                                         name="fld_9214124"
-                                        value=""
+                                        value="Was the patient's blood drawn?"
                                         data-field="fld_9214124"
                                         class="form-control"
                                         id="fld_9214124_1"
@@ -488,7 +429,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_2790094"
-                                        value=""
+                                        value="Details/Facts of What Happened"
                                         data-field="fld_2790094"
                                         class="form-control"
                                         id="fld_2790094_1"
@@ -516,7 +457,7 @@
                                     <div class="">
                                       <textarea
                                         name="fld_5243327"
-                                        value=""
+                                        value="Additional Comments"
                                         data-field="fld_5243327"
                                         class="form-control"
                                         id="fld_5243327_1"
@@ -576,7 +517,7 @@
                                         class="form-control"
                                         id="fld_361914_1"
                                         name="fld_361914"
-                                        value=""
+                                        value="***I have read and followed ALL steps in the needle stick protocol***"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_361914Label"
@@ -592,21 +533,10 @@
                                       <input
                                         class="btn btn-default"
                                         type="submit"
-                                        name="fld_6682039"
-                                        id="fld_6682039_1"
                                         value="Submit Form"
-                                        data-field="fld_6682039"
                                       />
                                     </div>
                                   </div>
-                                  <input
-                                    class="button_trigger_1"
-                                    type="hidden"
-                                    name="fld_6682039"
-                                    id="fld_6682039_1_btn"
-                                    value=""
-                                    data-field="fld_6682039"
-                                  />
                                 </div>
                               </div>
                             </form>

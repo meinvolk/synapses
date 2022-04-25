@@ -74,90 +74,18 @@
                             data-cf-ver="1.9.6"
                             data-cf-form-id="CF5a5e34373843b"
                           >
-                            <div
-                              id="caldera_notices_1"
-                              data-spinner="https://synapsesiom.com/wp-admin/images/spinner.gif"
-                            ></div>
                             <form
-                              data-instance="1"
-                              class="CF5a5e34373843b caldera_forms_form cfajax-trigger"
+                              action="https://usebasin.com/f/5a9a4745ccbb"
                               method="POST"
                               enctype="multipart/form-data"
-                              id="CF5a5e34373843b_1"
-                              data-form-id="CF5a5e34373843b"
+                              id="form"
+                              class="CF5a5e34373843b caldera_forms_form cfajax-trigger"
                               aria-label="Case Evaluation"
-                              data-target="#caldera_notices_1"
-                              data-template="#cfajax_CF5a5e34373843b-tmpl"
-                              data-cfajax="CF5a5e34373843b"
-                              data-load-element="_parent"
-                              data-load-class="cf_processing"
-                              data-post-disable="0"
-                              data-action="cf_process_ajax_submit"
-                              data-request="https://synapsesiom.com/cf-api/CF5a5e34373843b"
-                              data-hiderows="true"
                             >
-                              <input
-                                type="hidden"
-                                id="_cf_verify_CF5a5e34373843b"
-                                name="_cf_verify"
-                                value="6f86f24370"
-                                data-nonce-time="1650849489"
-                              /><input
-                                type="hidden"
-                                name="_wp_http_referer"
-                                value="/loginpage/forms/case-evaluation-form/"
-                              />
-                              <div id="cf2-CF5a5e34373843b_1"></div>
-                              <input
-                                type="hidden"
-                                name="_cf_frm_id"
-                                value="CF5a5e34373843b"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_frm_ct"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="cfajax"
-                                value="CF5a5e34373843b"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_cr_pst"
-                                value="625"
-                              />
-                              <div
-                                class="hide"
-                                style="
-                                  display: none;
-                                  overflow: hidden;
-                                  height: 0;
-                                  width: 0;
-                                "
-                              >
-                                <label>Company</label
-                                ><input
-                                  type="text"
-                                  name="company"
-                                  autocomplete="off"
-                                />
-                              </div>
-                              <div
-                                id="CF5a5e34373843b_1-row-1"
-                                class="row first_row"
-                              >
+                              <div class="row first_row">
                                 <div class="col-sm-12 single">
-                                  <div
-                                    data-field-wrapper="fld_7904569"
-                                    class="form-group"
-                                    id="fld_7904569_1-wrap"
-                                  >
-                                    <label
-                                      id="fld_7904569Label"
-                                      for="fld_7904569_1"
-                                      class="control-label"
+                                  <div class="form-group">
+                                    <label class="control-label"
                                       >Trainee
                                       <span
                                         aria-hidden="true"
@@ -167,29 +95,18 @@
                                         >*</span
                                       ></label
                                     >
-                                    <div class="">
+                                    <div>
                                       <input
                                         required
                                         type="text"
-                                        data-field="fld_7904569"
                                         class="form-control"
-                                        id="fld_7904569_1"
-                                        name="fld_7904569"
-                                        data-type="text"
+                                        name="Trainee"
                                         aria-required="true"
-                                        aria-labelledby="fld_7904569Label"
                                       />
                                     </div>
                                   </div>
-                                  <div
-                                    data-field-wrapper="fld_6968762"
-                                    class="form-group"
-                                    id="fld_6968762_1-wrap"
-                                  >
-                                    <label
-                                      id="fld_6968762Label"
-                                      for="fld_6968762_1"
-                                      class="control-label"
+                                  <div class="form-group">
+                                    <label class="control-label"
                                       >Preceptor
                                       <span
                                         aria-hidden="true"
@@ -206,7 +123,7 @@
                                         data-field="fld_6968762"
                                         class="form-control"
                                         id="fld_6968762_1"
-                                        name="fld_6968762"
+                                        name="Preceptor"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_6968762Label"
@@ -238,7 +155,7 @@
                                         data-field="fld_6333000"
                                         class="form-control"
                                         id="fld_6333000_1"
-                                        name="fld_6333000"
+                                        name="PID"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_6333000Label"
@@ -270,7 +187,7 @@
                                         data-field="fld_3341379"
                                         class="form-control"
                                         id="fld_3341379_1"
-                                        name="fld_3341379"
+                                        name="Procedure"
                                         data-type="text"
                                         aria-required="true"
                                         aria-labelledby="fld_3341379Label"
@@ -299,7 +216,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_9590396"
+                                        name="This type of case could have been monitored adequately without a supervisor or preceptor present?"
                                         data-field="fld_9590396"
                                         class="form-control"
                                         id="fld_9590396_1"
@@ -368,7 +285,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_9214124"
+                                        name="Arrived on time?"
                                         data-field="fld_9214124"
                                         class="form-control"
                                         id="fld_9214124_1"
@@ -409,7 +326,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_1232624"
+                                        name="Had all the necessary supplies for monitoring the case?"
                                         data-field="fld_1232624"
                                         class="form-control"
                                         id="fld_1232624_1"
@@ -450,7 +367,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_8949750"
+                                        name="Had all the necessary functional equipment for monitoring the case?"
                                         data-field="fld_8949750"
                                         class="form-control"
                                         id="fld_8949750_1"
@@ -491,7 +408,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_2956438"
+                                        name="Trainee completed planning guide and/or had an appropriate IONM plan in place?"
                                         data-field="fld_2956438"
                                         class="form-control"
                                         id="fld_2956438_1"
@@ -540,7 +457,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_7665782"
+                                        name="Set-up all equipment in a timely fashion?"
                                         data-field="fld_7665782"
                                         class="form-control"
                                         id="fld_7665782_1"
@@ -581,7 +498,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_9651439"
+                                        name="Performed an appropriate patient assessment (if applicable)?"
                                         data-field="fld_9651439"
                                         class="form-control"
                                         id="fld_9651439_1"
@@ -630,7 +547,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_6753492"
+                                        name="Conducted appropriate and effective communication with the anesthesia providers and surgeon about case/considerations?"
                                         data-field="fld_6753492"
                                         class="form-control"
                                         id="fld_6753492_1"
@@ -671,7 +588,7 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_4894691"
+                                        name="Electrode set-up correct and in a timely fashion?"
                                         data-field="fld_4894691"
                                         class="form-control"
                                         id="fld_4894691_1"
@@ -757,7 +674,14 @@
                                         >*</span
                                       ></label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingOne"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Baseline acquisition and assessment"
+                                      :value="ratingOne"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_7277057"
@@ -777,7 +701,14 @@
                                         >*</span
                                       ></label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingTwo"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="USMON and report documentation"
+                                      :value="ratingTwo"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_4157217"
@@ -797,7 +728,14 @@
                                         >*</span
                                       ></label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingThree"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Maintains vigilance throughout procedure"
+                                      :value="ratingThree"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_7765195"
@@ -817,7 +755,14 @@
                                         >*</span
                                       ></label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingFour"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Recognizes key surgical stages"
+                                      :value="ratingFour"
+                                    />
                                   </div>
                                 </div>
                                 <div class="col-sm-6 last_col">
@@ -834,7 +779,16 @@
                                       concepts/Demonstrates appropriate
                                       troubleshooting abilities</label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingFive"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Understands troubleshooting
+                                      concepts/Demonstrates appropriate
+                                      troubleshooting abilities"
+                                      :value="ratingFive"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_9940854"
@@ -848,7 +802,14 @@
                                       >Understanding of physiologic
                                       waveforms/modalities</label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingSix"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Understanding of physiologic waveforms/modalities"
+                                      :value="ratingSix"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_6999581"
@@ -862,7 +823,14 @@
                                       >Recognizes neurophysiological
                                       changes/important waveform patterns</label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingSeven"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Recognizes neurophysiological changes/important waveform patterns"
+                                      :value="ratingSeven"
+                                    />
                                   </div>
                                   <div
                                     data-field-wrapper="fld_3365844"
@@ -875,7 +843,14 @@
                                       class="control-label"
                                       >Communication/critical events</label
                                     >
-                                    <star-rating></star-rating>
+                                    <star-rating
+                                      @rating-selected="setRatingEight"
+                                    ></star-rating>
+                                    <input
+                                      type="hidden"
+                                      name="Communication/critical events"
+                                      :value="ratingEight"
+                                    />
                                   </div>
                                 </div>
                               </div>
@@ -897,7 +872,7 @@
                                     >
                                     <div class="">
                                       <textarea
-                                        name="fld_5243327"
+                                        name="comments"
                                         data-field="fld_5243327"
                                         class="form-control"
                                         id="fld_5243327_1"
@@ -920,20 +895,10 @@
                                       <input
                                         class="btn btn-default"
                                         type="submit"
-                                        name="fld_6682039"
-                                        id="fld_6682039_1"
                                         value="Submit Form"
-                                        data-field="fld_6682039"
                                       />
                                     </div>
                                   </div>
-                                  <input
-                                    class="button_trigger_1"
-                                    type="hidden"
-                                    name="fld_6682039"
-                                    id="fld_6682039_1_btn"
-                                    data-field="fld_6682039"
-                                  />
                                 </div>
                               </div>
                             </form>
@@ -972,6 +937,44 @@ export default {
     StarRating,
   },
   middleware: "auth",
+  data() {
+    return {
+      ratingOne: 0,
+      ratingTwo: 0,
+      ratingThree: 0,
+      ratingFour: 0,
+      ratingFive: 0,
+      ratingSix: 0,
+      ratingSeven: 0,
+      ratingEight: 0,
+    };
+  },
+  methods: {
+    setRatingOne: function (rating) {
+      this.ratingOne = rating;
+    },
+    setRatingTwo: function (rating) {
+      this.ratingTwo = rating;
+    },
+    setRatingThree: function (rating) {
+      this.ratingThree = rating;
+    },
+    setRatingFour: function (rating) {
+      this.ratingFour = rating;
+    },
+    setRatingFive: function (rating) {
+      this.ratingFive = rating;
+    },
+    setRatingSix: function (rating) {
+      this.ratingSix = rating;
+    },
+    setRatingSeven: function (rating) {
+      this.ratingSeven = rating;
+    },
+    setRatingEight: function (rating) {
+      this.ratingEight = rating;
+    },
+  },
   head() {
     return {
       link: [
