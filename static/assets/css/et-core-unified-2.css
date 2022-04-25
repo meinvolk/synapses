@@ -175,19 +175,6 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
   text-decoration: none;
 }
 
-#top-menu li.current-menu-ancestor > a,
-#top-menu li.current-menu-item > a,
-.et_color_scheme_red #top-menu li.current-menu-ancestor > a,
-.et_color_scheme_red #top-menu li.current-menu-item > a,
-.et_color_scheme_pink #top-menu li.current-menu-ancestor > a,
-.et_color_scheme_pink #top-menu li.current-menu-item > a,
-.et_color_scheme_orange #top-menu li.current-menu-ancestor > a,
-.et_color_scheme_orange #top-menu li.current-menu-item > a,
-.et_color_scheme_green #top-menu li.current-menu-ancestor > a,
-.et_color_scheme_green #top-menu li.current-menu-item > a {
-  color: #ff6600;
-}
-
 #main-footer {
   background-color: rgba(48, 48, 48, 0.82);
 }
