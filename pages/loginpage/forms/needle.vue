@@ -147,8 +147,8 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_8376904"
-                                        value="Who Was Stuck"
+                                        name="Who Was Stuck"
+                                        value=""
                                         data-field="fld_8376904"
                                         class="form-control"
                                         id="fld_8376904_1"
@@ -264,8 +264,8 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_4974062"
-                                        value="Type of Needle"
+                                        name="Type of Needle"
+                                        value=""
                                         data-field="fld_4974062"
                                         class="form-control"
                                         id="fld_4974062_1"
@@ -316,9 +316,8 @@
                                     >
                                     <div class="">
                                       <textarea
-                                        name="fld_195789"
-                                        value="Location/Body Part of Needle Stick - BE
-                                      SPECIFIC"
+                                        name="Location/Body Part of Needle Stick - BE SPECIFIC"
+                                        value=""
                                         data-field="fld_195789"
                                         class="form-control"
                                         id="fld_195789_1"
@@ -383,8 +382,8 @@
                                     >
                                     <div class="">
                                       <select
-                                        name="fld_9214124"
-                                        value="Was the patient's blood drawn?"
+                                        name="Was the patient's blood drawn?"
+                                        value=""
                                         data-field="fld_9214124"
                                         class="form-control"
                                         id="fld_9214124_1"
@@ -424,8 +423,8 @@
                                     >
                                     <div class="">
                                       <textarea
-                                        name="fld_2790094"
-                                        value="Details/Facts of What Happened"
+                                        name="Details/Facts of What Happened"
+                                        value=""
                                         data-field="fld_2790094"
                                         class="form-control"
                                         id="fld_2790094_1"
@@ -452,8 +451,8 @@
                                     >
                                     <div class="">
                                       <textarea
-                                        name="fld_5243327"
-                                        value="Additional Comments"
+                                        name="Additional Comments"
+                                        value=""
                                         data-field="fld_5243327"
                                         class="form-control"
                                         id="fld_5243327_1"
