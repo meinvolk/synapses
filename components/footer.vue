@@ -85,6 +85,18 @@
           <div id="text-4" class="fwidget et_pb_widget widget_text">
             <div class="textwidget">
               <p>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://www.jointcommission.org/"
+                  target="_blank"
+                >
+                  <img
+                    src="/assets/images/goldseal_transparent_gif.gif"
+                    alt="The Joint Commission Gold Seal"
+                    data-height-percentage="100"
+                    class="gold-seal"
+                  />
+                </a>
                 <a href="https://www.aset.org/"
                   ><img
                     loading="lazy"
@@ -124,22 +136,35 @@
     <div id="footer-bottom">
       <div class="container clearfix">
         <ul class="et-social-icons">
-          <li class="et-social-icon et-social-facebook">
+          <li>
             <a href="https://www.facebook.com/synapsesiom/" class="icon">
-              <span>Facebook</span>
+              <img
+                loading="lazy"
+                src="/assets/images/facebook_color.svg"
+                alt="ASNM logo"
+                width="30"
+                class="alignnone size-medium wp-image-800"
+              />
             </a>
           </li>
-          <li class="et-social-icon et-social-google-plus">
+          <li>
             <a
               href="https://www.google.com/search?ei=-91xWpPFF4SWsQX2zqDgCw&amp;q=Synapses+IOM+&amp;oq=Synapses+IOM+&amp;gs_l=psy-ab.3..35i39k1l2j0j0i22i30k1l2j38.116976.116976.0.117327.1.1.0.0.0.0.80.80.1.1.0....0...1.1.64.psy-ab..0.1.79....0.Re8Jt-V-vB8"
               class="icon"
             >
-              <span>Google</span>
+              <img
+                loading="lazy"
+                src="/assets/images/google_color.svg"
+                alt="ASNM logo"
+                width="30"
+                class="alignnone size-medium wp-image-800"
+              />
             </a>
           </li>
         </ul>
         <div id="footer-info">
-          ©2022 | <a href="wp-admin/index.html">ADMIN LOGIN</a>
+          ©{{ new Date().getFullYear() }} |
+          <NuxtLink to="/loginpage">Admin login</NuxtLink>
         </div>
       </div>
       <!-- .container -->
@@ -152,3 +177,10 @@ export default {
   name: "Footer",
 };
 </script>
+
+<style scoped>
+.gold-seal {
+  width: 125px;
+  padding-bottom: 10px;
+}
+</style>

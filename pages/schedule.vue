@@ -68,7 +68,7 @@
                     <!-- .et_pb_column -->
                   </div>
                   <!-- .et_pb_row -->
-                  <div class="et_pb_row et_pb_row_1">
+                  <div class="et_pb_row et_pb_row_1 schedule-case-items">
                     <div
                       class="et_pb_column et_pb_column_1_3 et_pb_column_1 et_pb_css_mix_blend_mode_passthrough"
                     >
@@ -111,59 +111,6 @@
                       </div>
                       <!-- .et_pb_blurb -->
                     </div>
-                    <!-- .et_pb_column -->
-                    <div
-                      class="et_pb_column et_pb_column_1_3 et_pb_column_2 et_pb_css_mix_blend_mode_passthrough"
-                    >
-                      <div
-                        class="et_pb_module et_pb_blurb et_pb_blurb_1 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
-                      >
-                        <div class="et_pb_blurb_content">
-                          <div class="et_pb_main_blurb_image">
-                            <a
-                              href="../wp-content/uploads/2018/01/Case-Scheduling-Form.pdf"
-                              target="_blank"
-                              ><span class="et_pb_image_wrap"
-                                ><img
-                                  src="/assets/images/PrintIcon.PNG"
-                                  class="image et-waypoint et_pb_animation_top et-pb-icon"
-                                  alt=""
-                                  title="" /></span
-                            ></a>
-                          </div>
-                          <div class="et_pb_blurb_container">
-                            <div class="et_pb_blurb_description">
-                              <h2 style="text-align: center">
-                                <span style="color: #ff9900"
-                                  ><strong
-                                    ><a
-                                      style="color: #ff9900"
-                                      href="../wp-content/uploads/2018/01/Case-Scheduling-Form.pdf"
-                                      target="_blank"
-                                      rel="noopener"
-                                      >Download PDF</a
-                                    >
-                                    <a
-                                      style="color: #ff9900"
-                                      href="../wp-content/uploads/2018/01/Case-Scheduling-Form.pdf"
-                                      target="_blank"
-                                      rel="noopener"
-                                      >and Fax Us</a
-                                    ></strong
-                                  ></span
-                                >
-                              </h2>
-                              <p style="text-align: center">
-                                <strong>Fax: (248) 254-6524</strong>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- .et_pb_blurb_content -->
-                      </div>
-                      <!-- .et_pb_blurb -->
-                    </div>
-                    <!-- .et_pb_column -->
                     <div
                       class="et_pb_column et_pb_column_1_3 et_pb_column_3 et_pb_css_mix_blend_mode_passthrough et-last-child"
                     >
@@ -252,5 +199,10 @@ export default {
 
 .image {
   opacity: 1;
+}
+
+.schedule-case-items {
+  display: flex;
+  justify-content: center;
 }
 </style>

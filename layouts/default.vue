@@ -7,7 +7,6 @@
       <Header />
 
       <Nuxt />
-
       <Footer />
     </div>
     <!-- #page-container -->
