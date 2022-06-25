@@ -46,23 +46,22 @@ export default {
 ul.tabs__header {
   display: block;
   list-style: none;
-  margin: 0 0 0 20px;
   padding: 0;
 }
 
 ul.tabs__header > li {
-  padding: 15px 30px;
-  border-radius: 10px;
+  padding: 5px 30px;
   margin: 0;
+  border: solid white 1px;
   display: inline-block;
-  margin-right: 5px;
   cursor: pointer;
+  color: white;
+  background-color: #000080;
 }
 
 ul.tabs__header > li.tab__selected {
   font-weight: bold;
-  border-radius: 10px 10px 0 0;
-  border-bottom: 8px solid transparent;
+  background-color: #ff6600;
 }
 
 .tab {
@@ -70,7 +69,6 @@ ul.tabs__header > li.tab__selected {
   color: black;
   padding: 20px;
   min-width: 800px;
-  border-radius: 10px;
   min-height: 400px;
 }
 
