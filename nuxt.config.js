@@ -69,8 +69,8 @@ export default {
     strategies: {
       local: false,
       auth0: {
-        domain: "dev--rbsgn29.us.auth0.com",
-        clientId: "38Qf93ZrPjbo3R5DMYxtRiIIGDNxjKpm",
+        domain: "dev-in0r1hkw.us.auth0.com",
+        clientId: "a6TTEXQW7Oayj2yNiFyNCAUH6JsO9C6F",
       },
     },
   },
