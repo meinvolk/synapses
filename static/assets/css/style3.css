@@ -5870,6 +5870,9 @@ body #main-content .et_builder_inner_content > p {
 .iphone .et_pb_contact_form textarea {
   -webkit-appearance: initial;
 }
+.et_pb_section{
+  padding: 10px 0 !important;
+}
 .iphone
   .et_pb_section_video_bg
   video::-webkit-media-controls-start-playback-button {
