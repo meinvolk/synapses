@@ -83,7 +83,7 @@
                               ><span class="et_pb_image_wrap"
                                 ><img
                                   src="/assets/images/PaperIcon.PNG"
-                                  class="image et-waypoint et_pb_animation_top et-pb-icon"
+                                  class=""
                                   alt=""
                                   title="" /></span
                             ></a>
@@ -125,7 +125,7 @@
                               ><span class="et_pb_image_wrap"
                                 ><img
                                   src="/assets/images/EmailIcon.PNG"
-                                  class="image et-waypoint et_pb_animation_top et-pb-icon"
+                                  class=""
                                   alt=""
                                   title="" /></span
                             ></a>
