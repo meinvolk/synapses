@@ -80,7 +80,7 @@
 </p>
                             
 <p>
-                            Notice of “Good Faith Estimate”
+                            <b>Notice of “Good Faith Estimate”</b>
 
 </p>
 <p>
