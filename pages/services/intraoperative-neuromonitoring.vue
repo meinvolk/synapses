@@ -141,16 +141,6 @@
                           ><img
                             src="/assets/images/mri-782457_1920-3-e1515687825185.jpg"
                             alt="intraoperative neuromonitoring MRI"
-                            title=""
-                            srcset="
-                              /assets/images/mri-782457_1920-3-768x768.jpg         768w,
-                              /assets/images/mri-782457_1920-3-150x150.jpg         150w,
-                              /assets/images/mri-782457_1920-3-300x300.jpg         300w,
-                              /assets/images/mri-782457_1920-3-1024x1024.jpg      1024w,
-                              /assets/images/mri-782457_1920-3-1080x1080.jpg      1080w,
-                              /assets/images/mri-782457_1920-3-e1515687825185.jpg  500w
-                            "
-                            sizes="(max-width: 500px) 100vw, 500px"
                         /></span>
                       </div>
                       <div class="et_pb_module et_pb_image et_pb_image_1">
@@ -158,15 +148,6 @@
                           ><img
                             src="/assets/images/mri-782459_1920-2-e1515687799125.jpg"
                             alt="intraoperative neuromonitoring MRI"
-                            title=""
-                            srcset="
-                              /assets/images/mri-782459_1920-2-768x768.jpg         768w,
-                              /assets/images/mri-782459_1920-2-150x150.jpg         150w,
-                              /assets/images/mri-782459_1920-2-300x300.jpg         300w,
-                              /assets/images/mri-782459_1920-2-1024x1024.jpg      1024w,
-                              /assets/images/mri-782459_1920-2-1080x1081.jpg      1080w,
-                              /assets/images/mri-782459_1920-2-e1515687799125.jpg  500w
-                            "
                             sizes="(max-width: 500px) 100vw, 500px"
                         /></span>
                       </div>
