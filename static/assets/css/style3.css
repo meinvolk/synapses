@@ -5181,7 +5181,15 @@ body #main-content .et_builder_inner_content > p {
     margin-right: 0;
   }
 }
+#menuToggle
+{
+  display: none;
+}
 @media (max-width: 980px) {
+  #menuToggle {
+    display: block;
+  }
+  
   .et_hide_mobile_logo #main-header .logo_container {
     display: none;
     opacity: 0;
