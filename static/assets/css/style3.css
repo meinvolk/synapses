@@ -5186,6 +5186,9 @@ body #main-content .et_builder_inner_content > p {
   display: none;
 }
 @media (max-width: 980px) {
+  .et_pb_fullwidth_header.et_pb_fullwidth_header_1 {
+    padding-top: 115px;
+  }
   #menuToggle {
     display: block;
   }

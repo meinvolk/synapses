@@ -179,7 +179,7 @@ export default {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: -60px;
   
   cursor: pointer;
   
@@ -199,6 +199,7 @@ export default {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
+  right: 50px;
   
   background: rgb(255, 102, 0);
   border-radius: 3px;
