@@ -61,7 +61,7 @@
                         class="et_pb_module et_pb_text et_pb_text_0 et_pb_text_align_left et_pb_bg_layout_light"
                       >
                         <div class="et_pb_text_inner">
-                            <h3>Contact Phone Number <a href="tel:866-766-3783">866-766-3783</a></h3>
+                            <h3>Billing Phone Number <a href="tel:866-766-3783">866-766-3783</a> option 1</h3>
                             <br/>
                           <p>
                             Our IONM services requires some of the most advanced technology available, with an entire team of technicians and our physicians, working in concert with your surgeon to maximize efficiency and safety during surgery. In many instances, our IONM services create a charge (bill) for services provided.  While these services are billed separately from your surgical procedure by our billing company, and you will receive either a bill and/or explanation of benefits for the costs of these services, the patient will be responsible only for established deductibles and coinsurance amounts, following the insurance policy rules, as well as state and federal regulations for patient billing and payor compliance. Occasionally the insurance company will send our payments directly to you (a check), and this will need be forwarded to our billing company.
