@@ -17,7 +17,7 @@
 export default {
   head() {
     return {
-      title: "Test",
+      title: "Synapses IOM",
     };
   },
   mounted() {
