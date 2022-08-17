@@ -63,6 +63,7 @@
               <NuxtLink to="/services/continuous-eeg"><li>Continuous EEG</li></NuxtLink>
               <NuxtLink to="/careers"><li>Careers</li></NuxtLink>
               <NuxtLink to="/schedule"><li>Schedule A Case</li></NuxtLink>
+              <NuxtLink to="/patient-billing"><li>Patient Billing</li></NuxtLink>
               <NuxtLink to="/loginpage"><li>Employee login</li></NuxtLink>
             </ul>
           </div>
@@ -97,6 +98,9 @@
               </li>
               <li class="page_item page-item-57">
                 <NuxtLink to="/schedule">Schedule A Case</NuxtLink>
+              </li>
+              <li class="page_item page-item-57">
+                <NuxtLink to="/patient-billing">Patient Billing</NuxtLink>
               </li>
               <li class="page_item page-item-730">
                 <NuxtLink to="/loginpage">Employee login</NuxtLink>
