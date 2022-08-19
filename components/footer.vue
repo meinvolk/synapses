@@ -30,8 +30,8 @@
             <div class="textwidget">
               <p>
                 <a href="tel: 866-766-3783">Phone: (866) 76-NERVE<br /> </a>Reg
-                Fax: (248) 773-7703<br />
-                Case Fax: (248) 254-6524
+                Fax: (248) 254-6524<br />
+                Case Fax: (248) 573-2372
               </p>
             </div>
           </div>
@@ -135,33 +135,6 @@
 
     <div id="footer-bottom">
       <div class="container clearfix">
-        <ul class="et-social-icons">
-          <li>
-            <a href="https://www.facebook.com/synapsesiom/" class="icon">
-              <img
-                loading="lazy"
-                src="/assets/images/facebook_color.svg"
-                alt="ASNM logo"
-                width="30"
-                class="alignnone size-medium wp-image-800"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.google.com/search?ei=-91xWpPFF4SWsQX2zqDgCw&amp;q=Synapses+IOM+&amp;oq=Synapses+IOM+&amp;gs_l=psy-ab.3..35i39k1l2j0j0i22i30k1l2j38.116976.116976.0.117327.1.1.0.0.0.0.80.80.1.1.0....0...1.1.64.psy-ab..0.1.79....0.Re8Jt-V-vB8"
-              class="icon"
-            >
-              <img
-                loading="lazy"
-                src="/assets/images/google_color.svg"
-                alt="ASNM logo"
-                width="30"
-                class="alignnone size-medium wp-image-800"
-              />
-            </a>
-          </li>
-        </ul>
         <div id="footer-info">
           ©{{ new Date().getFullYear() }} |
           <NuxtLink to="/loginpage">Admin login</NuxtLink>

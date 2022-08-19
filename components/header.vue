@@ -19,22 +19,21 @@
     <!-- #top-header -->
 
     <header id="main-header" data-height-onload="110" class="opaque-header">
-      <div class="container clearfix et_menu_container">
-        <div class="logo_container">
-          <span class="logo_helper"></span>
+      <div class="container clearfix et_menu_container header-container">
+        <div>
           <NuxtLink to="/">
             <img
               src="/assets/images/Synapses_IOM_LogoproofEIDTED22-1-e1512750803254.png"
               alt="Synapses IOM"
               id="logo"
-              data-height-percentage="100"
+              class="logo-img"
             />
           </NuxtLink>
         </div>
         
 
 
-        <nav role="navigation">
+        <nav role="navigation" class="mobile-navigation">
           <div id="menuToggle">
             <!--
             A fake / hidden checkbox is used as click reciever,
@@ -109,6 +108,19 @@
           </nav>  
         </div>
         <!-- #et-top-navigation -->
+
+        <a
+          rel="noopener noreferrer"
+          href="https://www.jointcommission.org/"
+          target="_blank"
+        >
+          <img
+            src="/assets/images/goldseal_transparent_gif.gif"
+            alt="The Joint Commission Gold Seal"
+            data-height-percentage="100"
+            class="gold-seal"
+          />
+        </a>
       </div>
 
       <!-- .container -->
@@ -145,6 +157,35 @@ export default {
 
 <style lang="css">
 
+@media only screen and (max-width: 981px) {
+  .logo-img {
+    display: none !important;
+  }
+  .gold-seal {
+    display: none !important;
+  }
+}
+
+.mobile-navigation {
+  position: absolute;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+#top-menu li {
+  padding-bottom: 5px;
+}
+
+.logo-img {
+  width: 214px;
+}
+
+.gold-seal {
+  width: 145px;
+}
 
 #menuToggle
 {
@@ -259,8 +300,8 @@ export default {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -109px;
-  padding: 50px;
+  margin: -100px 0 0 -127px;
+  padding: 0 0 15px 70px;
   padding-top: 125px;
   
   background: #ededed;
@@ -270,7 +311,6 @@ export default {
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
