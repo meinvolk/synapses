@@ -146,12 +146,12 @@
                       >
                         <div class="et_pb_text_inner">
                           <h3 style="text-align: center">
-                            <a href="schedule/index.html"
+                            <a href="https://app.paubox.com/synapsesiom/forms/Schedule_A_Case/70"
                               >Need To Schedule A Case?</a
                             >
                           </h3>
                           <h3 style="text-align: center">
-                            <a href="schedule/index.html"
+                            <a href="https://app.paubox.com/synapsesiom/forms/Schedule_A_Case/70"
                               >Use our HIPAA compliant online form!</a
                             >
                           </h3>
@@ -471,31 +471,20 @@
                       >
                         <div class="et_pb_text_inner">
                           <p style="text-align: center">
-                            <span style="color: #ffffff"
-                              ><a
-                                style="color: #ffffff"
-                                href="wp/careers/index.html"
-                                >Looking for a growing and fulfilling career?</a
-                              ></span
+                            <span style="color: #ffffff">
+                              <NuxtLink to="/careers" aria-current="page" style="color: #ffffff">Looking for a growing and fulfilling career?</NuxtLink></span
                             >
                           </p>
                           <p style="text-align: center">
                             <span style="color: #ffffff"
-                              ><a
-                                style="color: #ffffff"
-                                href="careers/index.html"
-                                >Join our team of dedicated and certified CNIMs
-                                and help facilitate patient safety.</a
-                              ></span
+                              ><NuxtLink to="/careers" aria-current="page" style="color: #ffffff">Join our team of dedicated and certified CNIMs
+                                and help facilitate patient safety.</NuxtLink>
+                              </span
                             >
                           </p>
                           <p style="text-align: center">
                             <span style="color: #ffffff"
-                              ><a
-                                style="color: #ffffff"
-                                href="careers/index.html"
-                                ><strong>Apply Today!</strong></a
-                              ></span
+                              ><NuxtLink to="/careers" aria-current="page" style="color: #ffffff"><strong>Apply Today!</strong></NuxtLink></span
                             >
                           </p>
                         </div>
