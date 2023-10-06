@@ -404,72 +404,12 @@
                               data-spinner="../wp-admin/images/spinner.gif"
                             ></div>
                             <form
+                              action="https://usebasin.com/f/ee0b50d0411a"
                               data-instance="1"
                               class="CF5a1f0238b9c6b caldera_forms_form cfajax-trigger"
                               method="POST"
                               enctype="multipart/form-data"
-                              id="CF5a1f0238b9c6b_1"
-                              data-form-id="CF5a1f0238b9c6b"
-                              aria-label="Career Form"
-                              data-target="#caldera_notices_1"
-                              data-template="#cfajax_CF5a1f0238b9c6b-tmpl"
-                              data-cfajax="CF5a1f0238b9c6b"
-                              data-load-element="_parent"
-                              data-load-class="cf_processing"
-                              data-post-disable="0"
-                              data-action="cf_process_ajax_submit"
-                              data-request="https://synapsesiom.com/cf-api/CF5a1f0238b9c6b"
-                              data-hiderows="true"
                             >
-                              <input
-                                type="hidden"
-                                id="_cf_verify_CF5a1f0238b9c6b"
-                                name="_cf_verify"
-                                value="a2416225a8"
-                                data-nonce-time="1646522909"
-                              /><input
-                                type="hidden"
-                                name="_wp_http_referer"
-                                value="/careers/"
-                              />
-                              <div id="cf2-CF5a1f0238b9c6b_1"></div>
-                              <input
-                                type="hidden"
-                                name="_cf_frm_id"
-                                value="CF5a1f0238b9c6b"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_frm_ct"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="cfajax"
-                                value="CF5a1f0238b9c6b"
-                              />
-                              <input
-                                type="hidden"
-                                name="_cf_cr_pst"
-                                value="156"
-                              />
-                              <div
-                                class="hide"
-                                style="
-                                  display: none;
-                                  overflow: hidden;
-                                  height: 0;
-                                  width: 0;
-                                "
-                              >
-                                <label>Phone</label
-                                ><input
-                                  type="text"
-                                  name="phone"
-                                  value=""
-                                  autocomplete="off"
-                                />
-                              </div>
                               <div
                                 id="form_page_1_pg_1"
                                 data-formpage="1"
@@ -504,7 +444,7 @@
                                           type="text"
                                           class="form-control"
                                           id="fld_3688899_1"
-                                          name="fld_3688899"
+                                          name="First Name"
                                           value=""
                                           data-type="text"
                                           aria-required="true"
@@ -536,7 +476,7 @@
                                           type="text"
                                           class="form-control"
                                           id="fld_6829296_1"
-                                          name="fld_6829296"
+                                          name="Last Name"
                                           value=""
                                           data-type="text"
                                           aria-required="true"
@@ -568,7 +508,7 @@
                                           type="email"
                                           class="form-control"
                                           id="fld_6830845_1"
-                                          name="fld_6830845"
+                                          name="Email Address"
                                           value=""
                                           data-type="email"
                                           aria-required="true"
@@ -605,7 +545,7 @@
                                           type="phone"
                                           class="form-control"
                                           id="fld_645468_1"
-                                          name="fld_645468"
+                                          name="Contact Number"
                                           value=""
                                           data-type="phone"
                                           aria-required="true"
@@ -639,7 +579,7 @@
                                           type="text"
                                           class="form-control"
                                           id="fld_2058156_1"
-                                          name="fld_2058156"
+                                          name="Primary City and State of Residence"
                                           value=""
                                           data-type="text"
                                           aria-required="true"
@@ -669,7 +609,7 @@
                                       >
                                       <div class="">
                                         <select
-                                          name="fld_1546687"
+                                          name="Are You Willing To Relocate?"
                                           value=""
                                           class="form-control"
                                           id="fld_1546687_1"
@@ -721,44 +661,16 @@
                                         ></label
                                       >
                                       <div class="">
-                                        <div
-                                          id="fld_1720034_1_file_list"
-                                          data-id="fld_1720034_1"
-                                          class="cf-multi-uploader-list"
-                                        ></div>
-
-                                        <button
-                                          id="fld_1720034_1_trigger"
-                                          type="button"
-                                          class="btn btn-block cf-uploader-trigger"
-                                          data-parent="fld_1720034_1"
-                                        >
-                                          Add File
-                                        </button>
-
                                         <input
-                                          style="display: none"
+                                          required
                                           accept=".pdf"
-                                          class="cf-multi-uploader"
+                                          class="btn btn-block cf-uploader-trigger"
                                           data-config='{"custom_class":"","attach":1,"multi_upload_text":"Add File","allowed":["application\/pdf","pdf"],"max_size":104857600,"notices":{"file_exceeds_size_limit":"File exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another."}}'
                                           data-controlid="trupl6223f21d0b85c"
                                           data-required="true"
                                           type="file"
                                           id="fld_1720034_1"
-                                          name="fld_1720034"
-                                        />
-                                        <input
-                                          style="display: none"
-                                          type="text"
-                                          id="fld_1720034_1_validator"
-                                          data-parsley-file-type="true"
-                                          required="required"
-                                          data-required="true"
-                                        />
-                                        <input
-                                          type="hidden"
-                                          name="fld_1720034"
-                                          value="trupl6223f21d0b85c"
+                                          name="Upload Resume"
                                         />
                                         <span
                                           id="fld_1720034Caption"
@@ -782,42 +694,17 @@
                                         >Additional Documents</label
                                       >
                                       <div class="">
-                                        <div
-                                          id="fld_9583875_1_file_list"
-                                          data-id="fld_9583875_1"
-                                          class="cf-multi-uploader-list"
-                                        ></div>
-
-                                        <button
-                                          id="fld_9583875_1_trigger"
-                                          type="button"
-                                          class="btn btn-block cf-uploader-trigger"
-                                          data-parent="fld_9583875_1"
-                                        >
-                                          Add Files
-                                        </button>
 
                                         <input
-                                          style="display: none"
+                                          required
                                           accept=".pdf"
-                                          class="cf-multi-uploader"
+                                          class="btn btn-block cf-uploader-trigger"
                                           data-config='{"custom_class":"","attach":1,"multi_upload":1,"multi_upload_text":"Add Files","allowed":["application\/pdf","pdf"],"max_size":104857600,"notices":{"file_exceeds_size_limit":"File exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another."}}'
                                           data-controlid="trupl6223f21d0ba88"
                                           multiple="multiple"
                                           type="file"
                                           id="fld_9583875_1"
-                                          name="fld_9583875"
-                                        />
-                                        <input
-                                          style="display: none"
-                                          type="text"
-                                          id="fld_9583875_1_validator"
-                                          data-parsley-file-type="true"
-                                        />
-                                        <input
-                                          type="hidden"
-                                          name="fld_9583875"
-                                          value="trupl6223f21d0ba88"
+                                          name="Additional Documents"
                                         />
                                         <span
                                           id="fld_9583875Caption"
@@ -844,7 +731,7 @@
                                       >
                                       <div class="">
                                         <textarea
-                                          name="fld_6566084"
+                                          name="Message / Comments"
                                           value=""
                                           class="form-control"
                                           id="fld_6566084_1"
@@ -861,244 +748,14 @@
                                       <div class="">
                                         <input
                                           class="btn btn-default cf-page-btn cf-page-btn-next"
-                                          type="button"
+                                          type="submit"
                                           name="fld_7007738"
                                           id="fld_7007738_1"
-                                          value="Preview Information"
+                                          value="Submit Resume"
                                           data-page="next"
                                         />
                                       </div>
                                     </div>
-                                    <input
-                                      class="button_trigger_1"
-                                      type="hidden"
-                                      name="fld_7007738"
-                                      id="fld_7007738_1_btn"
-                                      value=""
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                id="form_page_1_pg_2"
-                                data-formpage="2"
-                                role="region"
-                                aria-labelledby="breadcrumb_1_pg_2"
-                                aria-hidden="true"
-                                class="caldera-form-page"
-                                style="display: none"
-                              >
-                                <div id="CF5a1f0238b9c6b_1-row-5" class="row">
-                                  <div class="col-sm-12 single">
-                                    <div class="">
-                                      <h2>Information Summary</h2>
-                                    </div>
-                                    <div
-                                      data-field-wrapper="fld_3540500"
-                                      class="form-group"
-                                      id="fld_3540500_1-wrap"
-                                    >
-                                      <div class="">
-                                        <div
-                                          style="text-align: center"
-                                          class="live-gravatar"
-                                        >
-                                          <span
-                                            style="
-                                              overflow: hidden;
-                                              border-radius: 3px;
-                                              border: 3px solid #efefef;
-                                              display: inline-block;
-                                            "
-                                          >
-                                            <span
-                                              style="
-                                                border-radius: 3px;
-                                                width: 100px;
-                                                height: 100px;
-                                                display: inline-block;
-                                              "
-                                              id="fld_3540500_1_gravatar"
-                                              ><img
-                                                alt="Gravatar Image"
-                                                src="https://secure.gravatar.com/avatar/?s=100&amp;d=mm&amp;r=g"
-                                                srcset="
-                                                  https://secure.gravatar.com/avatar/?s=200&#038;d=mm&#038;r=g 2x
-                                                "
-                                                class="avatar avatar-100 photo avatar-default"
-                                                height="100"
-                                                width="100"
-                                                loading="lazy"
-                                            /></span>
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <ul>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >First Name</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_3688899 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Last Name</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_6829296 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Email Address</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_6830845 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Contact Number</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_645468 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Primary City and State of
-                                          Residence</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_2058156 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Are You Willing To Relocate?</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_1546687 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Upload Resume</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_1720034 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Additional Documents</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_9583875 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Message / Comments</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_6566084 }}</span
-                                        >
-                                      </li>
-                                      <li>
-                                        <span
-                                          class="caldera-forms-summary-label"
-                                          >Profile</span
-                                        >
-                                        <span
-                                          class="caldera-forms-summary-value"
-                                          >{{ fld_3540500 }}</span
-                                        >
-                                      </li>
-                                    </ul>
-
-                                    <div
-                                      class="caldera-forms-summary-field"
-                                      id="html-content-fld_8862269_1"
-                                      name="fld_8862269"
-                                      value=""
-                                      data-type="summary"
-                                    ></div>
-                                  </div>
-                                </div>
-                                <div
-                                  id="CF5a1f0238b9c6b_1-row-6"
-                                  class="row last_row"
-                                >
-                                  <div class="col-sm-6 first_col">
-                                    <div
-                                      data-field-wrapper="fld_3202325"
-                                      class="form-group"
-                                      id="fld_3202325_1-wrap"
-                                    >
-                                      <div class="">
-                                        <input
-                                          class="btn btn-default cf-page-btn cf-page-btn-prev"
-                                          type="button"
-                                          name="fld_3202325"
-                                          id="fld_3202325_1"
-                                          value="Edit information"
-                                          data-page="prev"
-                                        />
-                                      </div>
-                                    </div>
-                                    <input
-                                      class="button_trigger_1"
-                                      type="hidden"
-                                      name="fld_3202325"
-                                      id="fld_3202325_1_btn"
-                                      value=""
-                                    />
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <div
-                                      data-field-wrapper="fld_8728190"
-                                      class="form-group"
-                                      id="fld_8728190_1-wrap"
-                                    >
-                                      <div class="">
-                                        <input
-                                          class="btn btn-default"
-                                          type="submit"
-                                          name="fld_8728190"
-                                          id="fld_8728190_1"
-                                          value="Submit"
-                                        />
-                                      </div>
-                                    </div>
-                                    <input
-                                      class="button_trigger_1"
-                                      type="hidden"
-                                      name="fld_8728190"
-                                      id="fld_8728190_1_btn"
-                                      value=""
-                                    />
                                   </div>
                                 </div>
                               </div>
